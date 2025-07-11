@@ -4,3 +4,5 @@ function StringToArray(str) {
 
 const res = "Assalamu alaykum birodar qalesiz";
 console.log(StringToArray(res));
+
+//O'xshadimi
