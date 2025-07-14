@@ -1,8 +1,15 @@
-function StringToArray(str) {
-  return str.split(" ");
+function repetion(str) {
+  let view = new Set()
+  for(let a of str) {
+    if(view.has(a)) {
+      return a
+    }
+    view.add(a)
+  }
+  return null
 }
+console.log(repetion("salom"));
+console.log(repetion("assalam"));
+console.log(repetion("muhammad"));
 
-const res = "Assalamu alaykum birodar qalesiz";
-console.log(StringToArray(res));
 
-//O'xshadimi
