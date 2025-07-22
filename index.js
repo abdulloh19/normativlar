@@ -42,3 +42,56 @@
 // } else {
 //   console.log(-1);
 // }
+
+// normativ savollar No1
+// let num = 111
+// if (num % 2 === 0) {
+// 	console.log('juft son')
+// } else {
+// 	console.log('toq son')
+// }
+// savol No2
+
+// let son = 1
+// if (son > 0) {
+// 	console.log(`musbat son: ${son}`)
+// } else if (son < 0) {
+// 	console.log(`manfiy son: ${son}`)
+// } else {
+// 	console.log('siz kiritgan son 0 ga teng')
+// }
+//  savol No3
+// function bigNum(a, b) {
+// 	if (a > b) {
+// 		return a
+// 	} else if (a < b) {
+// 		return b
+// 	}
+// }
+// bigNum(5, 10)
+// console.log(bigNum(51, 10))
+
+// savol No4
+// let baho = +prompt('Nechi baho olganingizni yozing: ')
+// if (baho >= 60 && baho <= 69) {
+// 	alert("Siz 3 baho bilan O'tdingiz")
+// } else if (baho >= 70 && baho <= 89) {
+// 	alert("Siz 4 baho bilan o'tdingiz")
+// } else if (baho >= 90 && baho <= 100) {
+// 	alert("Siz 5 baho bilan o'tdingiz")
+// } else {
+// 	alert("Siz 2 baho bilan o'ta olmadingiz")
+// }
+
+// savol No5
+// let userLogin = 'ustudy2025'
+// let password = 'u9frontend'
+// if (userLogin === 'ustudy2025' && password === 'u9frontend') {
+// 	console.log('Xush kelibsiz')
+// } else if (userLogin !== 'ustudy2025' && password === 'u9frontend') {
+// 	console.log('Login xato')
+// } else if (userLogin === 'ustudy2025' && password !== 'u9frontend') {
+// 	console.log('Parol xato')
+// } else {
+// 	console.log('Login va Password xato')
+// }
