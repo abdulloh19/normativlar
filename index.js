@@ -125,3 +125,31 @@
 // let res = Math.max(...arr)
 // let min = Math.min(...arr);
 // console.log(`Eng katta son: ${res} Eng kichik son: ${min}`);
+
+//savol No1
+// let arr = [3,7,2,11,5]
+// let lastE = arr.pop();
+// let res = lastE * 5
+// arr.unshift(res);
+// console.log(arr);
+
+// savol No2
+// let pairNum = [9, 8, 5, 1, 6, 4]
+// let res = pairNum.filter(num => num % 2 === 0).reduce((a, b) => a + b, 0)
+// console.log(res);
+
+// savol No3
+// let gathered = [1, 33, 0, 22, -11, -24, 10]
+// let res = gathered.filter(n => n > 0).reduce((a, b) => a + b, 0)
+// console.log(res)
+
+//savol No4
+// let arr = [6, 1, 3, 5, 6, 0, 4]
+// let sort = arr.sort((a, b) => a - b)
+// let res = sort.filter(num => num > 2 ).map((a) => a ** 2)
+// console.log(res)
+
+// savol No5
+// let arrays = [1, [2, 3], [4], [5, 6, 7]]
+// let flatArray = arrays.flat().filter(a => a % 2 !== 0)
+// console.log(flatArray)
