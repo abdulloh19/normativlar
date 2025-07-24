@@ -170,3 +170,10 @@
 // console.log(palindrom('hello'))
 // console.log(palindrom('level'))
 // console.log(palindrom('racecar'))
+
+// Normativ 2:6
+// let arr = [1, 2, 3, 4, 5, 6]
+// let res = arr.slice(0, arr.length / 2)
+// let res2 = arr.slice(3, arr.length / 2 + 3)
+// console.log(res) 
+// console.log(res2) 
