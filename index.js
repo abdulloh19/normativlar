@@ -153,3 +153,20 @@
 // let arrays = [1, [2, 3], [4], [5, 6, 7]]
 // let flatArray = arrays.flat().filter(a => a % 2 !== 0)
 // console.log(flatArray)
+
+//Normativ 2:5
+
+// function palindrom(str) {
+// 	let reversedStr = str.split('').reverse().join('') // Matnni teskari qilish
+// 	if (str === reversedStr) {
+// 		return true // Asl matn bilan teskari matnni solishtirish
+// 	} else {
+// 		return false
+// 	}
+// }
+
+// // Misollar:
+// console.log(palindrom('madam'))
+// console.log(palindrom('hello'))
+// console.log(palindrom('level'))
+// console.log(palindrom('racecar'))
