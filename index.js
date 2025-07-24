@@ -95,3 +95,33 @@
 // } else {
 // 	console.log('Login va Password xato')
 // }
+
+// savol No1
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,14,15,16,17,18,19,20]
+// let res = num.filter((a) => a % 2/8 === 0)
+// console.log(res);
+
+// savol No2
+// let sum = 0
+// for (let i = 1; i <= 10; i++) {
+// 	sum += i
+// 	console.log(i)
+// }
+
+//savol No3
+// let numbers = [7, -11, -2, 10, 24, 11,15,18]
+// let positiveNumbers = numbers.filter(num => num > 0 && num % 2 === 0).reduce((acc,cur) => acc + cur, 0);
+// console.log(positiveNumbers);
+
+// savol No4
+// for (let i = 1; i <= 100; i++) {
+// 	if (i % 3 === 0 && i % 5 === 0) {
+// 		console.log(i)
+// 	}
+// }
+
+// savol No5
+// let arr = [2,-15,-2,13,18]
+// let res = Math.max(...arr)
+// let min = Math.min(...arr);
+// console.log(`Eng katta son: ${res} Eng kichik son: ${min}`);
