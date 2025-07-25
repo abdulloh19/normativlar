@@ -178,17 +178,6 @@
 // console.log(res)
 // console.log(res2)
 
-//savol No1
-// let names = ['john', 'Muhammad', 'Ali', 'Bob', 'sulaymon', 'salohiddin']
-// let res = names.filter(name => name.length >= 5)
-// console.log(res)
-
-//savol No2
-// let numbers = [5, 15, 3, 13, 18];
-// let max = Math.max(...numbers);
-// let min = Math.min(...numbers);
-// let difference = max - min;
-// console.log(`Eng katta va eng kichik sonlar farqi: ${difference}`);
 
 //2:7
 // let str = "I love you programming javascript";
