@@ -187,3 +187,14 @@
 // let numbers = [5,6,7,8]
 // let res = numbers.map(num => num * 2).filter(num => num);
 // console.log(res);
+
+// 2:9
+// function getNonCommonElements(arr1, arr2) {
+//   const num = arr1.filter(item => !arr2.includes(item));
+//   const num2 = arr2.filter(item => !arr1.includes(item));
+//   return [...num, ...num2];
+// }
+
+// const result = getNonCommonElements([1, 2, 3], [3, 4, 5]);
+// console.log(result); 
+
