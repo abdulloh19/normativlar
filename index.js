@@ -179,6 +179,11 @@
 // console.log(res2)
 
 //2:7
-// let str = "I love you programming javascript";
+// let str = "I am a coder";
 // let res = str.split(" ").reduce((a, b) => a.length > b.length ? a : b);
 // console.log(`Eng uzun so'z: ${res}`);
+
+// 2:8
+// let numbers = [5,6,7,8]
+// let res = numbers.map(num => num * 2).filter(num => num);
+// console.log(res);
