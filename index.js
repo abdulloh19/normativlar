@@ -178,10 +178,7 @@
 // console.log(res)
 // console.log(res2)
 
-
 //2:7
 // let str = "I love you programming javascript";
 // let res = str.split(" ").reduce((a, b) => a.length > b.length ? a : b);
 // console.log(`Eng uzun so'z: ${res}`);
-
- 
