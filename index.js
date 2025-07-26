@@ -196,5 +196,39 @@
 // }
 
 // const result = getNonCommonElements([1, 2, 3], [3, 4, 5]);
-// console.log(result); 
+// console.log(result);
 
+//savol No1
+// let names = ['john', 'Muhammad', 'Ali', 'Bob', 'sulaymon', 'salohiddin']
+// let res = names.filter(name => name.length >= 5)
+// console.log(res)
+
+//savol No2
+// let numbers = [5, 15, 3, 13, 18];
+// let max = Math.max(...numbers);
+// let min = Math.min(...numbers);
+// let difference = max - min;
+// console.log(`Eng katta va eng kichik sonlar farqi: ${difference}`);
+
+//savol No3
+// let names = ["abdULaZiz", "MuHAmmad", "aLi", "bOB"]
+// let res = names.map(a => a.charAt(0).toUpperCase() + a.slice(1).toLowerCase());
+// console.log(res)
+
+//savol No4
+// function kichikTop(arr) {
+// 	const last = arr[arr.length - 1]
+// 	for (let i = 0; i < arr.length; i++) {
+// 		if (arr[i] < last) {
+// 			return arr[i]
+// 		}
+// 	}
+// 	return 0
+// }
+// console.log(kichikTop([16, 20, 8, 2, 12, 27, 9, 13]))
+
+//savol No5
+// function takror(arr) {
+// 	return arr.filter(a => arr.indexOf(a) === arr.lastIndexOf(a))
+// }
+// console.log(takror([1, 2, 3, 3, 4, 4, 5, 6, 7, 7]))
