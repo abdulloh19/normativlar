@@ -232,3 +232,51 @@
 // 	return arr.filter(a => arr.indexOf(a) === arr.lastIndexOf(a))
 // }
 // console.log(takror([1, 2, 3, 3, 4, 4, 5, 6, 7, 7]))
+
+//savol No1
+// let obj = {}
+// obj.FirstName = "Muhammad"
+// obj.LastName = "Karim"
+// obj.Age = 28
+// console.log(obj);
+
+//savol No2
+// let obj = {
+// 	valyuta: 'dollor',
+// 	miqdor: 100,
+// }
+// let res = obj.miqdor - (10 * 2 + 6 * 5)
+// console.log(res);
+
+//savol No3
+
+// let obj = { Anvar: 19, Salim: 21, Jasur: 13 }
+// console.log(obj.Salim);
+
+// savol No4
+// let obj = { name: 'Muhammad', age: 28, city: 'Tashkent' }
+// let res = Object.entries(obj)
+// console.log(res);
+
+// savol No5
+// let obj = {
+// 	Salim: 60,
+// 	Anvar: 70,
+// 	Hakim: 61,
+// 	Jasur: 80,
+// 	Muhammad: 50,
+// 	Ali: 45,
+// 	Abdulaziz: 45,
+// }
+// let valeu = Object.values(obj)
+// let res = valeu.filter(a => a < 60)
+
+// let keys = Object.keys(obj)
+
+// let deletUser = keys.filter((a, i) => {
+// 	return valeu[i] < 60
+// })
+// deletUser.forEach((a) => {
+// 	delete obj[a]
+// })
+// console.log(obj);
